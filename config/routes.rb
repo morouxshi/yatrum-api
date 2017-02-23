@@ -27,6 +27,7 @@ Rails.application.routes.draw do
   post 'users/show', to: 'users#show'
   post 'users/auth_user', to: 'users#auth_user'
   post 'users/update_social_links', to: 'users#update_social_links'
+  post 'users/upload_media', to: 'users#upload_media'
   post 'users/:id', to: 'users#get_user_by_id'
   post 'update_user_profile_media', to: 'users#update_user_profile_media'
   post 'add_to_user_following_list', to: 'users#add_traveller_to_user_following_list'
